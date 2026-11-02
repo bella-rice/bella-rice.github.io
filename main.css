@@ -24,6 +24,10 @@ p, a {
   animation: blink 1s step-end infinite;
 }
 
+#cursor::after {
+  content: "_";
+}
+
 @keyframes blink {
   50% { opacity: 0; }
 }
