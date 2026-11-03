@@ -3,6 +3,10 @@ p, a {
   font-weight: 600;
 }
 
+ul {
+  width: fit-content;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -49,6 +53,7 @@ p, a {
   font-size: 2.0rem;
   color: #d7cfe6;
   margin-bottom: 1rem;
+  width: fit-content;
 }
 .temp-social-link-list::before {
   content: "•";
